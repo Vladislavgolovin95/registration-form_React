@@ -1,0 +1,15 @@
+.title {
+  margin-bottom: 13px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.subtitle {
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #7F7F7F;
+}

@@ -1,0 +1,80 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.input {
+  padding: 14px 20px 12px;
+  border-radius: 4px;
+  border: 1px solid #3D3D3D;
+  background: #242424;
+  color: #fff;
+  outline: none;
+}
+.input:hover {
+  border: 1px solid #4B72C2;
+  transition: all ease-in 0.2s;
+}
+
+.checkbox {
+  display: none;
+}
+.custom-checkbox {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid #3D3D3D;
+  background: #242424;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked + .custom-checkbox {
+  background-color: #4B72C2;
+  transition: all ease-in 0.2s;
+}
+.checkbox-text {
+  vertical-align: super;
+  margin-left: 16px;
+  font-size: 16px;
+  color: #7F7F7F;
+}
+
+.btn {
+  padding: 14px 52px;
+  width: 200px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  background: #4B72C2;
+  color: #FFF;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
+  transition: all ease-in 0.2s;
+}
+
+hr {
+  margin-bottom: 32px;
+  width: 800px;
+  height: 2px;
+  border: none;
+  flex-shrink: 0;
+  background: #3D3D3D;
+}
+
+.text {
+  font-size: 16px;
+  color: #7F7F7F;
+}
+
+.link {
+  margin-left: 10px;
+  font-size: 16px;
+  font: inherit;
+  color: #4B72C2;
+  text-decoration: none;
+}
